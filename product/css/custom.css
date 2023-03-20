@@ -1,0 +1,204 @@
+.icones {
+    margin-right: 7%;
+}
+
+.icones .nav-item {
+    margin-left: 10%;
+}
+
+#menu-hover {
+    display: none;
+    width: 100vw;
+    background-color: white;
+}
+
+.hover:hover #menu-hover {
+    display: flex;
+    position: absolute;
+    z-index:1000;
+    left: -1%;
+}
+
+#menu-hover .container {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-hover ul {
+    list-style-type: none;
+}
+
+#menu-hover a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #71797f;
+    text-decoration: none;
+}
+
+#menu-hover .destaque {
+    color: black;
+    font-weight: 600;
+}
+
+.col-md-8 a{
+    width: 100%;
+    height: 100%;
+}
+
+.col-l {
+    padding-bottom: 100%;
+    background-color: #b9b9b9;
+}
+
+.col-l li {
+    margin-top: 1.5%;
+}
+
+.col-r div {
+    margin: 0;
+    padding: 0;
+}
+
+.col-r li {
+    margin-top: 1.5%;
+}
+
+#produto {
+    margin-top: 3%;
+}
+
+.principal {
+    margin: 0 10%;
+}
+
+.principal img {
+    width: 60%;
+    height: auto;
+}
+
+.text h4 {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.text h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.text h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.tamanho {
+    background-color: white;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    border-left: none;
+    border-right: none;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding: 3%;
+    font-size: 16px;
+}
+
+.carrinho {
+    background-color: black; 
+    color: white; 
+    border: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.btn-encontrar {
+    margin-top: 2%;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.detalhes p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalhes h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.detalhes li {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+.detalhes a {
+    margin-top: 2%;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+}
+
+.detalhes .form {
+    text-decoration: none;
+}
+
+footer .col-md-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+footer a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.sociais {
+    flex-direction: row;
+    margin: 0 9%;
+    margin-top: 7%;
+}
+
+.sociais a {
+    margin-right: 7%;
+}
+
+.final {
+    margin-top: 2%;
+
+    display: flex;
+}
+
+.final p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10%;
+}
+
+.final a {
+    font-size: 12px;
+    font-weight: 600;
+}
